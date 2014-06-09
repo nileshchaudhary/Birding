@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_selector"
+    android:padding="1dp">
+
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="3dip"
+    android:background="@drawable/image_bg"
+    android:layout_alignParentLeft="true"
+    android:layout_marginRight="5dip"
+    android:id="@+id/bird_thumbnail"
+    >
+
+    <!-- Create Thumbnail image -->
+        <ImageView
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:src="@drawable/ic_launcher"
+            />
+
+    </LinearLayout>
+
+    <!-- Common or English name for Bird -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/bird_thumbnail"
+        android:layout_toRightOf="@+id/bird_thumbnail"
+        android:text="@string/Sample_bird"
+        android:textColor="#040404"
+        android:typeface="sans"
+        android:textSize="15dip"
+        android:textStyle="bold"
+        android:id="@+id/bird_name"
+
+        />
+
+
+    <!-- Common or English name for Bird -->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bird_name"
+        android:layout_toRightOf="@+id/bird_thumbnail"
+        android:text="@string/sample_bird_sci_name"
+        android:layout_marginTop="1dp"
+        android:textColor="#343434"
+        android:textSize="10dp"
+        android:id="@+id/sci_name"
+        />
+
+    <!-- Arrow -->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/arrow"
+        />
+
+</RelativeLayout>
