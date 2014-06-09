@@ -22,6 +22,7 @@
             android:layout_width="50dip"
             android:layout_height="50dip"
             android:src="@drawable/ic_launcher"
+            android:id="@+id/thumbnail_img"
             />
 
     </LinearLayout>
@@ -59,6 +60,7 @@
 
     <ImageView
         android:layout_width="wrap_content"
+        android:id="@+id/_arrow"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"

@@ -16,7 +16,7 @@ public class MainActivity extends FragmentActivity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        ViewPager pager=(ViewPager)findViewById(R.id.pager);
+        ViewPager pager=(ViewPager)findViewById(R.id._pager);
         pager.setAdapter(new Myadapter(getSupportFragmentManager()));
 
     }
